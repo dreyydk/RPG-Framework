@@ -23,9 +23,11 @@ line();
 console.log(`Starting Mage class test...`);
 
 const jongin = new Mage("Choi Jong-In", 100, 20, 10, 20);
+const haein = new Character("Cha Hae-In", 30, 20, 10);
 const querehsha = new Character("Querehsha", 100, 20, 10);
 
 jongin.attack(querehsha);
+jongin.heal(haein);
 
 // Warrior test.
 
