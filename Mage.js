@@ -15,6 +15,11 @@ class Mage extends Character {
       console.log(`${target.name} didn't take damage!`);
     }
   }
+  heal(target) {
+    console.log(`${this.name} casts a healing spell on ${target.name}!`);
+    target.health += this.magicPower;
+    console.log(`${target.name} has been healed! New HP: ${target.health}!`);
+  }
 }
 
 module.exports = Mage;
