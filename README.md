@@ -6,13 +6,13 @@ The RPG Framework is a JavaScript-based project. It is an application that conta
 
 The system has the following features:
 - **Character Creation:** Users can create characters with different classes, such as Thief, Mage, and Warrior.
-- **Character Stats:** Each character has unique stats, such as health, attack, and defense.
-- **Attack Action:** So far, the only method added has been attack, which, as the name suggests, allows a character to carry out an attack on a specific target.
-- **Character Classes:** The system includes different character classes, each with its own unique characteristics.
+- **Character Stats:** Each character can be created with unique stats, such as health, attack, and defense.
+- **Characters Actions:** By default, all character classes have an attack action, but some specific ones have unique actions, such as changing posture and healing.
+- **Character Classes:** The framework includes different character classes, each with its own unique characteristics.
 
 If no changes are made, the output should be this:
 
-![image](https://github.com/dreyydk/Rpg-Framework/assets/169372866/364ce71f-3c2f-4625-9aaf-22e325013c36)
+![image](https://github.com/dreyydk/RPG-Framework/assets/169372866/47a9f0ee-6c58-48cb-9b3d-d4d093d17995)
 
 ## Technologies 💻
 
